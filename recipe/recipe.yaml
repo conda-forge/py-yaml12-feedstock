@@ -2,7 +2,7 @@
 schema_version: 1
 
 context:
-  version: "0.2.0"
+  version: "0.2.1"
 
 package:
   name: py-yaml12
@@ -10,10 +10,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/p/py-yaml12/py_yaml12-${{ version }}.tar.gz
-  sha256: b8326c144e26a4ae7e03d13175667d85c580a9f0512fd7b809e5c92b5569f74e
+  sha256: 171893cea1711d978feb7b9b8b5a040747c66343fdfd095f11bca6115eb75b07
 
 build:
-  number: 1
+  number: 0
   script:
     env:
       CARGO_PROFILE_RELEASE_STRIP: symbols
